@@ -1,0 +1,253 @@
+<!DOCTYPE html><!--22061093 이정은-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+
+    body{
+      font-family: '나눔바른고딕';
+      font-size: 14px;
+      color: #444444;
+    }
+
+    li{
+      list-style-type: none;
+    }
+
+    .clear{
+      clear:both;
+    }
+
+     header{
+       width: 1140px;
+       height: 100px;
+       margin: 0 auto;
+       /*border: solid 1px red;*/
+     }
+
+     #logo{
+       float: left;
+       margin: 10px 0 0 20px;
+       /*border: solid 1px red;*/
+     }
+
+     #menus{
+       float: right;
+      /*border: solid 1px red*/;
+     }
+
+     #top_menu{
+       text-align: right;
+       margin: 20px;
+       /*border: solid 1px red;*/
+     }
+
+     #main_menu{
+       margin-top: 50px;
+       font-family:'나눔바른고딕';
+       font-size: 20px;
+       color: black;
+       /*border: solid 1px red;*/
+     }
+
+     #main_menu li{
+       display: inline;
+       margin-left: 80px;
+     }
+
+     #main_img{
+       width: 100%;
+       height:281px;
+       background-image: url('main1.png');
+       background-repeat: no-repeat;
+       background-position: top center;
+       margin-top: 20px;
+       /*border: solid 1px red;*/
+     }
+
+     #contents{
+       width: 1140px;
+       margin: 0 auto;
+     }
+
+     #sub_menu{
+       width: 234px;
+       float: left;
+       margin-top:25px;
+       /*border: solid 1px red;*/
+
+     }
+
+     #sub_menu h3{
+       font-size: 18px;
+       color: #ffffff;
+       padding: 12px;
+       background-color: #f39d06;
+     }
+
+     #sub_menu li{
+       padding: 10px;
+       border-bottom: dotted 1px #cccccc;
+     }
+
+     #main_contents{
+       width: 880px;
+       float: right;
+       margin-top: 25px;
+       /*border: solid 1px red;*/
+     }
+
+     #main_contents1{
+       margin-top: 20px;
+       /*border: solid 1px red;*/
+       height:281px;
+       background-image: url('main3-2.png');
+       background-repeat: no-repeat;
+       background-position: top center;
+
+     }
+
+     #main_contents h3 {
+       font-size: 22px;
+       padding-bottom: 8px;
+       border-bottom: solid 1px #cccccc;
+     }
+
+     #main_contents p {
+       margin-top: 30px;
+       line-height: 180%;
+     }
+
+     #main_contents #figure{
+       margin-top: 30px;
+       text-align: center;
+     }
+
+     #main_contents li{
+       padding: 5px;
+     }
+
+     footer{
+       width: 100%;
+       height: 150px;
+       margin-top: 30px;
+       background-color: #2c2a29;
+     }
+
+     #footer_box{
+       width: 1140px;
+       height:150px;
+       margin: 0 auto;
+       /*border: solid 1px red;*/
+     }
+
+     #footer_logo{
+       float: left;
+       margin: 20px 0 0 30px;
+       /*border: solid 1px red;*/
+     }
+
+     #address{
+       float: right;
+       margin: 50px 30px 0 0;
+       color: #E0E0E0;
+       /*border: solid 1px red;*/
+     }
+
+     table, tr, th, td{
+       border: solid 1px #cccccc;
+       border-collapse: collapse;
+       padding: 8px;
+
+     }
+
+     #ta_th{
+       background-color: #f39d06;
+     }
+
+     #ta_td{
+       background-color: #f4d295;
+     }
+
+     a:link { color: black; text-decoration: none;}
+     a:visited { color: black; }
+
+
+
+    </style>
+
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <div id='logo'>
+        <a href='index.html'><img src='logo4.png'></a>
+      </div>
+
+      <nav id='menus'>
+
+        <ul id='main_menu'>
+          <li><a href='index2.html'>Design</a></li>
+          <li><a href='index3.html'>Planning</a></li>
+          <li><a href='index4.html'>Programming</a></li>
+          <li><a href='index5.html'>JE</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id='main_img'>
+    </section>
+
+
+    <section id='contents'>
+     <nav id='sub_menu'>
+        <h3><a href='index2.html'>Design</a></h3>
+        <ul>
+          <li><a href='index2-1.html'>콘텐츠디자인</a></li>
+          <li><a href='index2-2.html'><b>3D디자인</b></a></li>
+        </ul>
+      </nav>
+
+      <div id='main_contents'>
+        <h3>3D디자인</h3>
+          <div id='figure'>
+            <h4>'이케아' 광고영상</h4>
+            <br>
+            <video width='600' autoplay controls loop>
+            <source src="3d_v.mp4" type="video/mp4">
+            </video>
+          </div>
+        <p>
+          3D디자인 수업에서 진행했던 '이케아'광고 영상 작업입니다. 이케아의 가구들이 조립식으로 제작하는 것이기 때문에 이 특징으로
+          영상을 제작했습니다. 따라서 여러가지의 가구들이 조립되는 모션을 넣어 쉽게 DIY가구를 만들 수 있다는 스토리를 담았습니다.
+          이케아의 가구 중 <굴리베르>,<릭스훌트>,<레르베리>,<글라돔>,<알렉스>를 모델링하고, 모션을 넣어 완성했습니다.
+        </p>
+
+        <p>3ds Max를 이용해서 가구를 모델링했고, 프리미어와 에프터이펙트를 이용해서 영상에 자막과 배경, 음악을 추가했습니다. 3D로 애니메이션을
+          제작한 것은 처음이었기에 어려웠지만, 완성할 수 있어서 무척 뿌듯했던 작업이었습니다.
+        </p>
+      </div>
+    </section>
+    <div class='clear'></div><!-- float 속성해제-->
+
+    <footer>
+      <div id='footer_box'>
+        <div id='footer_logo'>
+          <img src='logo4.png'>
+        </div>
+
+        <ul id='address'>
+          <li></li>
+          <li></li>
+          <li>COPYRIGHT (C) JungEunLee ALL RIGHT RESERVED </li>
+        </ul>
+      </div>
+
+    </footer>
+
+  </body>
+  </html>
